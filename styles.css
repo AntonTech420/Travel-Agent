@@ -1,0 +1,153 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    font-family: "Montserrat";
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar2 {
+    background-color: grey;
+}
+
+.navbar2 a {
+    color: grey;
+}
+
+.header {
+    background: url("Travelbanner.png");
+    background-repeat: no-repeat;
+    background-color: #FF5757;
+    background-position: 0 -5100px;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    text-align: center;
+}
+
+@media (max-width:1199px) {
+    iframe {
+        height: 292px;
+    }
+}
+
+
+/* Style for Large Screen */
+
+@media (max-width:791px) {
+    iframe {
+        height: 292px;
+    }
+}
+
+
+/* Style for Medium Screen */
+
+@media (max-width:767px) {
+    iframe {
+        height: 300px;
+    }
+}
+
+
+/* Style for Small Screen */
+
+@media (max-width:575px) {
+    iframe {
+        height: 100px/* whatever height you want for mobile */
+    }
+}
+
+@media (max-width:1199px) {
+    iframe {
+        height: 292px;
+    }
+}
+
+.centre {
+    text-align: center;
+}
+
+footer.bottom {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+footer.small {
+    bottom: 0;
+    width: 100%;
+    margin-top: 120px;
+}
+
+footer {
+    margin: 0;
+    background-color: #FF5757;
+    color: white;
+    text-align: center;
+}
+
+a.icon {
+    text-decoration: none;
+    margin-right: 5px;
+    color: black;
+}
+
+a.icon:hover {
+    color: blue;
+    background-color: grey;
+    padding-top: 20px;
+    padding-left: 5px;
+    border-radius: 4px;
+}
+
+.contact {
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border: grey solid 15px;
+    border-radius: 10px;
+    background-color: #FF5757;
+}
+
+.contacttext {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+
+body {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h3,
+h2 {
+    font-family: "Montserrat";
+}
+
+h2 {
+    color: white;
+}
+
+
+/* */
